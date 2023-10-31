@@ -1,0 +1,24 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco:#FFFFFF;
+    --ciano:#4000ff;
+    --azuldegrade:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    background-color: white;
+}
+
+@media (min-width: 500px){
+    h1{
+        color: green;
+    }
+}
